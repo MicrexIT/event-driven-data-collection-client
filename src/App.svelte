@@ -12,6 +12,7 @@
     onMount(async () => {
         const response = await fetch("http://localhost:8080/graph")
         graphData = await response.json()
+        console.log(graphData)
     })
 
 
